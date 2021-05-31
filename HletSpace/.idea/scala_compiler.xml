@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="Maven 1" modules="HletSpace">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\codespace\HletSpace\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 2" modules="HbaseBase">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\codespace\HletSpace\HbaseBase\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+    <profile name="Maven 3" modules="SparkBase">
+      <parameters>
+        <parameter value="-dependencyfile" />
+        <parameter value="E:\codespace\HletSpace\SparkBase\target/.scala_dependencies" />
+      </parameters>
+    </profile>
+  </component>
+</project>
